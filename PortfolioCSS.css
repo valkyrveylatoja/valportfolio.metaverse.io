@@ -1,0 +1,127 @@
+.header{
+    background-color: black;
+}
+
+h1{
+    font-family:monospace;
+    font-size:80px;
+    text-align:center;
+    color:white;
+    margin-top:0;
+    padding:15px 15px;
+}
+
+h2{
+    font-family:monospace;
+    font-size:60px;
+    text-align:center;
+    color:black;
+  
+}
+
+h3{
+    font-family:monospace;
+    font-size:20px;
+    text-align:center;
+    color:black;
+}
+.menu a{
+    text-align:center;
+    color: #ffffff;
+    font-family:monospace;
+    padding:15px 15px;
+    font-size:20px;
+    margin-bottom: 20px;
+}
+
+.menu a:hover{
+    color: rgb(180, 180, 180);
+}
+
+.menu a:active{
+    color: rgb(100, 100, 100);
+}
+
+p{
+    font-family: monospace;
+    font-size: 30px;
+    text-align: justify;
+    color: black;
+    padding:50px 50px;
+}
+
+.square{
+    border: 2px solid black;
+}
+
+img{
+    max-width: fit-content;
+    max-height: fit-content;
+    float:left;
+}
+
+footer{
+    background-color:black;
+    color:white;
+    text-align:center;
+    margin-top:auto;
+    font-size:30px;
+    font-family:Arial;
+    padding:5px 5px;
+}
+
+.row{
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    padding: 0 4px;
+}
+
+.column{
+    -ms-flex: 25%;
+    flex: 25%;
+    max-width: 25%;
+    padding: 0 4%;
+}
+
+.column img{
+    margin-top:8px;
+    vertical-align: middle;
+    width: 100%;
+}
+
+.center{
+    display: block;
+    margin-left:auto;
+    margin-right: auto;
+    width:50%;
+}
+
+.container{
+    display: grid;
+    align-items: center;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 5px;
+}
+
+.column2{
+    float: left;
+    width: 33.33;
+    padding: 5px;
+}
+
+.row2::after{
+    content: "";
+    clear: both;
+    display: table;
+}
+
+#btn{
+    font-family:monospace;
+    font-size:80px;
+    text-align:center;
+    background-color: black;
+    color:white;
+    padding:15px 15px;
+}
